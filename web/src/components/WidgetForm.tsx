@@ -8,8 +8,7 @@ export function WidgetForm() {
       <p>hello world!</p>
 
       <footer className="text-xs text-neutral-400">
-        Feito com ❤️ por{" "}
-        <span className="underline underline-offset-2">Gabriel</span>
+        Feito com ❤️ por <a className="underline underline-offset-2">Gabriel</a>
       </footer>
     </div>
   );

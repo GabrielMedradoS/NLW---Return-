@@ -1,4 +1,4 @@
-## NLW---Return-
+## NLW---Return
 
 <h1 align="center">
 </h1>
@@ -8,7 +8,7 @@
     <a href="">
         <img src="https://img.shields.io/badge/NLW-Return-8257e6?&labelColor=#"></img>
     </a>
-    <img alt="Repository size" src="https://img.shields.io/github/repo-size/GabrielMedradoS/NLW---Heat---2021?color=8257e6&labelColor=#">
+    <img alt="Repository size" src="https://img.shields.io/github/repo-size/GabrielMedradoS/NLW---Return-?color=8257e6&labelColor=#">
     <a href="">
         <img alt="License" src="https://img.shields.io/static/v1?label=License&message=MIT&color=8257e6&labelColor=#">
     </a>
@@ -26,6 +26,8 @@
 <h4 align="center"> 🚧 # Under Construction # 🚧</h1>
 
 ## Projeto 💻
+
+Projeto consiste em fazer um Widget com feedback, screenshot relatando bugs
 
 ## Rodar o projeto 🚴🏻‍♂️
 

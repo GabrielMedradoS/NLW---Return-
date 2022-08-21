@@ -85,16 +85,17 @@ $ npm run dev
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" height="30" width="40"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg"
   alt="typescript" height="30" width="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" alt="tailwind" height="30" width="40" />
 </div>
 
-### documentation
+### documentation 📜
 
-`Aula 1 :`
+_`Aula 1 :`_
 
-- [Tailwind](https://tailwindcss.com/)
-- [Vite](https://vitejs.dev/)
+- [Tailwind | documentation](https://tailwindcss.com/)
+- [Vite | documentation](https://vitejs.dev/)
 
-`Aula 2 :`
+_`Aula 2 :`_
 
 - [Tailwind | forms](https://github.com/tailwindlabs/tailwindcss-forms)
 - [Tailwind | scrollbar](https://www.npmjs.com/package/tailwind-scrollbar)

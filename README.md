@@ -27,7 +27,8 @@
 
 ## Projeto 💻
 
-Projeto consiste em fazer um Widget com feedback, screenshot relatando bugs
+- Conteúdo de aulas praticas da Rocketseat com o instrutor Diego Fernandes
+- Projeto consiste em fazer um Widget com feedback, screenshot relatando bugs ou ideias para o App
 
 ## Rodar o projeto 🚴🏻‍♂️
 
@@ -88,9 +89,16 @@ $ npm run dev
 
 ### documentation
 
-[Tailwind](https://tailwindcss.com/):
-[Tailwind | forms](https://github.com/tailwindlabs/tailwindcss-forms)
-[Tailwind | scrollbar](https://www.npmjs.com/package/tailwind-scrollbar)
+`Aula 1 :`
+
+- [Tailwind](https://tailwindcss.com/)
+- [Vite](https://vitejs.dev/)
+
+`Aula 2 :`
+
+- [Tailwind | forms](https://github.com/tailwindlabs/tailwindcss-forms)
+- [Tailwind | scrollbar](https://www.npmjs.com/package/tailwind-scrollbar)
+- [html2canvas](https://html2canvas.hertzen.com/)
 
 ## Licença ⚖️
 

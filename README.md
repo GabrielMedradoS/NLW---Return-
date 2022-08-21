@@ -44,11 +44,13 @@ Projeto consiste em fazer um Widget com feedback, screenshot relatando bugs
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@tailwindcss/forms": "^0.5.2",
     "@types/react": "^18.0.15",
     "@types/react-dom": "^18.0.6",
     "@vitejs/plugin-react": "^2.0.0",
     "autoprefixer": "^10.4.8",
     "postcss": "^8.4.16",
+    "tailwind-scrollbar": "^1.3.1",
     "tailwindcss": "^3.1.8",
     "typescript": "^4.6.4",
     "vite": "^3.0.9"
@@ -83,6 +85,12 @@ $ npm run dev
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg"
   alt="typescript" height="30" width="40"/>
 </div>
+
+### documentation
+
+[Tailwind](https://tailwindcss.com/):
+[Tailwind | forms](https://github.com/tailwindlabs/tailwindcss-forms)
+[Tailwind | scrollbar](https://www.npmjs.com/package/tailwind-scrollbar)
 
 ## Licença ⚖️
 

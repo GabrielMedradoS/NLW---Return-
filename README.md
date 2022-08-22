@@ -24,7 +24,7 @@
 
 ### Layout 🚧
 
-<div align='center'><img src=".github/widget.png" alt="widget" width="40%"></div>
+<div align='center'><img src=".github/widget.png" alt="widget" width="50%"></div>
 
 ## Projeto 💻
 

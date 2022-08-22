@@ -107,7 +107,9 @@ _`Aula 2 :`_
 
 _`Aula 3 :`_
 
--[express](https://www.npmjs.com/package/express)
+- [express](https://www.npmjs.com/package/express)
+- [Prisma | documentation](https://www.prisma.io/)
+- [Prisma | SQLite](https://www.prisma.io/docs/concepts/database-connectors/sqlite)
 
 ## Licença ⚖️
 

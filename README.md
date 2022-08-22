@@ -1,7 +1,7 @@
 ## NLW Return
 
 <div align="center">
-    <img src=".github/nlw return.png" width="80%"  alt="Nlw Return">
+    <img src=".github/nlw return.png" width="50%"  alt="Nlw Return">
 </div>
 
 <p align="center">
@@ -24,7 +24,7 @@
 
 ### Layout 🚧
 
-<h4 align="center"> 🚧 # Under Construction # 🚧</h1>
+<div align='center'><img src=".github/widget.png" alt="widget" width="40%"></div>
 
 ## Projeto 💻
 

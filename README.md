@@ -69,7 +69,7 @@
 $ git clone https://github.com/GabrielMedradoS/NLW---Return-.git
 
 # Access the project folder at the command prompt
-$ cd NLW/return/web
+$ cd return/web
 
 # Install the dependencies
 $ npm install
@@ -90,6 +90,7 @@ $ npm run dev
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg"
   alt="typescript" height="30" width="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" alt="tailwind" height="30" width="40" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/>
 </div>
 
 #### documentation 📜

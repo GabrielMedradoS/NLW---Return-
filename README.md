@@ -38,6 +38,8 @@
 
 #### On your machine:
 
+##### Front-end
+
 <details>
     <summary>Dependencies</summary>
 
@@ -80,6 +82,48 @@ $ npm run dev
 # The project will start at the door: 5173 - access http://localhost:5173
 ```
 
+##### Back-end
+
+<details>
+    <summary>Dependencies</summary>
+
+```json
+  "scripts": {
+    "dev": "ts-node-dev src/server.ts"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^18.7.9",
+    "@types/nodemailer": "^6.4.5",
+    "prisma": "^4.2.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.2.1",
+    "express": "^4.18.1",
+    "nodemailer": "^6.7.8"
+  }
+```
+
+</details>
+
+```bash
+# Clone the repository
+$ git clone https://github.com/GabrielMedradoS/NLW---Return-.git
+
+# Access the project folder at the command prompt
+$ cd return/server
+
+# Install the dependencies
+$ npm install
+
+# Run the script "start"
+$ npm run dev
+
+# The project will start at the door: 3333 - access http://localhost:3333
+```
+
 ## Tecnologias 🛠
 
 <div>
@@ -111,6 +155,7 @@ _`Aula 3 :`_
 - [express](https://www.npmjs.com/package/express)
 - [Prisma | documentation](https://www.prisma.io/)
 - [Prisma | SQLite](https://www.prisma.io/docs/concepts/database-connectors/sqlite)
+- [mailtrap | Sandbox Service](https://mailtrap.io/)
 
 ## Licença ⚖️
 

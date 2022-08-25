@@ -89,18 +89,26 @@ $ npm run dev
 
 ```json
   "scripts": {
-    "dev": "ts-node-dev src/server.ts"
+    "dev": "ts-node-dev src/server.ts",
+    "test": "jest"
   },
   "devDependencies": {
+    "@swc/core": "^1.2.242",
+    "@swc/jest": "^0.2.22",
+    "@types/cors": "^2.8.12",
     "@types/express": "^4.17.13",
+    "@types/jest": "^28.1.8",
     "@types/node": "^18.7.9",
     "@types/nodemailer": "^6.4.5",
+    "jest": "^29.0.0",
     "prisma": "^4.2.1",
+    "ts-node": "^10.9.1",
     "ts-node-dev": "^2.0.0",
     "typescript": "^4.7.4"
   },
   "dependencies": {
     "@prisma/client": "^4.2.1",
+    "cors": "^2.8.5",
     "express": "^4.18.1",
     "nodemailer": "^6.7.8"
   }
@@ -157,6 +165,7 @@ _`Aula 3 :`_
 - [Prisma | SQLite](https://www.prisma.io/docs/concepts/database-connectors/sqlite)
 - [mailtrap | Sandbox Service](https://mailtrap.io/)
 - [SOLID](https://www.youtube.com/watch?v=vAV4Vy4jfkc&ab_channel=Rocketseat)
+- [Jest | swc](https://swc.rs/docs/usage/jest)
 
 ## Licença ⚖️
 

@@ -156,6 +156,7 @@ _`Aula 3 :`_
 - [Prisma | documentation](https://www.prisma.io/)
 - [Prisma | SQLite](https://www.prisma.io/docs/concepts/database-connectors/sqlite)
 - [mailtrap | Sandbox Service](https://mailtrap.io/)
+- [SOLID](https://www.youtube.com/watch?v=vAV4Vy4jfkc&ab_channel=Rocketseat)
 
 ## Licença ⚖️
 

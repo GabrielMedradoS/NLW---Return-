@@ -7,6 +7,7 @@ import { TouchableOpacity } from "react-native";
 import { ChatTeardropDots } from "phosphor-react-native";
 
 import { theme } from "../../theme";
+import { Options } from "../Options";
 import { styles } from "./styles";
 
 function Widget() {
@@ -31,7 +32,9 @@ function Widget() {
         snapPoints={[1, 280]}
         backgroundStyle={styles.modal}
         handleIndicatorStyle={styles.indicator}
-      ></BottomSheet>
+      >
+        <Options />
+      </BottomSheet>
     </>
   );
 }

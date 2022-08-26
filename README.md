@@ -24,9 +24,17 @@
 
 ### Layout 🚧
 
+#### Desktop Screenshot:
+
 <div align='center'>
 <img src=".github/widget.png" alt="widget" width="40%">
 <img src=".github/ideia.png" alt="widget" width="45%">
+</div>
+
+#### Mobile Screenshot:
+
+<div align='center'>
+🚧 <b> Under Construction </b> 🚧
 </div>
 
 ## Projeto 💻
@@ -132,6 +140,55 @@ $ npm run dev
 # The project will start at the door: 3333 - access http://localhost:3333
 ```
 
+##### Mobile
+
+<details>
+    <summary>Dependencies</summary>
+
+```json
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo-google-fonts/inter": "^0.2.2",
+    "expo": "~46.0.9",
+    "expo-app-loading": "~2.1.0",
+    "expo-font": "~10.2.0",
+    "expo-status-bar": "~1.4.0",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "react-native": "0.69.4",
+    "react-native-web": "~0.18.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@types/react": "~18.0.14",
+    "@types/react-native": "~0.69.1",
+    "typescript": "~4.3.5"
+  }
+```
+
+</details>
+
+```bash
+# Clone the repository
+$ git clone https://github.com/GabrielMedradoS/NLW---Return-.git
+
+# Access the project folder at the command prompt
+$ cd return/mobile
+
+# Install the dependencies
+$ npm install
+
+# Run the script "start"
+$ npm run start
+
+# The project start and generate a Qr Code
+```
+
 ## Tecnologias 🛠
 
 <div>
@@ -171,6 +228,7 @@ _`Aula 4 :`_
 
 - [React Native](https://reactnative.dev/docs/environment-setup)
 - [Expo](https://expo.dev/)
+- [Expo | Google fonts](https://docs.expo.dev/guides/using-custom-fonts/)
 
 ## Licença ⚖️
 

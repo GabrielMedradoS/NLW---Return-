@@ -229,6 +229,9 @@ _`Aula 4 :`_
 - [React Native](https://reactnative.dev/docs/environment-setup)
 - [Expo](https://expo.dev/)
 - [Expo | Google fonts](https://docs.expo.dev/guides/using-custom-fonts/)
+- [Bottom Sheet](https://gorhom.github.io/react-native-bottom-sheet/)
+- [Expo | reanimated](https://docs.expo.dev/versions/latest/sdk/reanimated/)
+- [Expo | gesture-handler](https://docs.expo.dev/versions/latest/sdk/gesture-handler/)
 
 ## Licença ⚖️
 

@@ -167,6 +167,11 @@ _`Aula 3 :`_
 - [SOLID](https://www.youtube.com/watch?v=vAV4Vy4jfkc&ab_channel=Rocketseat)
 - [Jest | swc](https://swc.rs/docs/usage/jest)
 
+_`Aula 4 :`_
+
+- [React Native](https://reactnative.dev/docs/environment-setup)
+- [Expo](https://expo.dev/)
+
 ## Licença ⚖️
 
 This project is under the MIT license. See the archive [LICENSE](https://github.com/GabrielMedradoS/NLW---Return-/blob/master/License) for more details.

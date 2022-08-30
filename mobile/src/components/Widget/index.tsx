@@ -6,7 +6,7 @@ import { TouchableOpacity } from "react-native";
 
 import { ChatTeardropDots } from "phosphor-react-native";
 
-import { Success } from "../Success";
+import { Form } from "../Form";
 
 import { theme } from "../../theme";
 import { styles } from "./styles";
@@ -38,7 +38,7 @@ function Widget() {
         backgroundStyle={styles.modal}
         handleIndicatorStyle={styles.indicator}
       >
-        <Success />
+        <Form feedbackType="BUG" />
       </BottomSheet>
     </>
   );

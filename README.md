@@ -167,6 +167,7 @@ $ npm run dev
     "react-native-iphone-x-helper": "^1.3.1",
     "react-native-reanimated": "~2.9.1",
     "react-native-svg": "12.3.0",
+    "react-native-view-shot": "3.3.0",
     "react-native-web": "~0.18.7"
   },
   "devDependencies": {
@@ -238,6 +239,7 @@ _`Aula 4 :`_
 - [Bottom Sheet](https://gorhom.github.io/react-native-bottom-sheet/)
 - [Expo | reanimated](https://docs.expo.dev/versions/latest/sdk/reanimated/)
 - [Expo | gesture-handler](https://docs.expo.dev/versions/latest/sdk/gesture-handler/)
+- [RN | View-shot](https://docs.expo.dev/versions/latest/sdk/captureRef/)
 
 ## Licença ⚖️
 

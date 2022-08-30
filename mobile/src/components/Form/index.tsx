@@ -9,6 +9,10 @@ import { captureScreen } from "react-native-view-shot";
 
 import { ScreenshotButton } from "../../components/ScreenshotButton";
 
+import { api } from "../../libs/api";
+
+import * as FileSystem from "expo-file-system";
+
 import { theme } from "../../theme";
 import { Button } from "../Button";
 import { styles } from "./styles";
@@ -24,7 +28,9 @@ export function Form({
   onFeedbackCanceled,
   onFeedbackSent,
 }: Props) {
+  const [isSendingFeedback, setIsSendingFeedback] = useState(false);
   const [screenshot, setScreenshot] = useState<string | null>(null);
+  const [comment, setComment] = useState("");
 
   const feedbackTypeInfo = feedbackTypes[feedbackType];
 
@@ -39,6 +45,31 @@ export function Form({
 
   function handleScreenshotRemove() {
     setScreenshot(null);
+  }
+
+  async function handleSendFeedback() {
+    if (isSendingFeedback) {
+      return;
+    }
+
+    setIsSendingFeedback(true);
+
+    const screenshotBase64 =
+      screenshot &&
+      (await FileSystem.readAsStringAsync(screenshot, { encoding: "base64" }));
+
+    try {
+      await api.post("/feedbacks", {
+        type: feedbackType,
+        screenshot: `data:image/png;base64, ${screenshotBase64}`,
+        comment,
+      });
+
+      onFeedbackSent();
+    } catch (error) {
+      console.log(error);
+      setIsSendingFeedback(false);
+    }
   }
 
   return (
@@ -62,6 +93,7 @@ export function Form({
         style={styles.input}
         placeholder="Algo não está funcionando bem? Queremos corrigir. Conte com detalhes oque está acontecendo..."
         placeholderTextColor={theme.colors.text_secondary}
+        onChangeText={setComment}
       />
 
       <View style={styles.footer}>
@@ -70,7 +102,7 @@ export function Form({
           onRemoveShot={handleScreenshotRemove}
           screenshot={screenshot}
         />
-        <Button isLoading={false} />
+        <Button onPress={handleSendFeedback} isLoading={isSendingFeedback} />
       </View>
     </View>
   );

@@ -155,8 +155,10 @@ $ npm run dev
   "dependencies": {
     "@expo-google-fonts/inter": "^0.2.2",
     "@gorhom/bottom-sheet": "^4",
+    "axios": "^0.27.2",
     "expo": "~46.0.9",
     "expo-app-loading": "~2.1.0",
+    "expo-file-system": "~14.1.0",
     "expo-font": "~10.2.0",
     "expo-status-bar": "~1.4.0",
     "phosphor-react-native": "^1.1.2",
@@ -240,6 +242,7 @@ _`Aula 4 :`_
 - [Expo | reanimated](https://docs.expo.dev/versions/latest/sdk/reanimated/)
 - [Expo | gesture-handler](https://docs.expo.dev/versions/latest/sdk/gesture-handler/)
 - [RN | View-shot](https://docs.expo.dev/versions/latest/sdk/captureRef/)
+- [axios](https://axios-http.com/ptbr/docs/instance)
 
 ## Licença ⚖️
 

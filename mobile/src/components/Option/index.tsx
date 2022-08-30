@@ -1,7 +1,7 @@
 import React from "react";
 import {
   Image,
-  ImageProps,
+  ImageSourcePropType,
   Text,
   TouchableOpacity,
   TouchableOpacityProps,
@@ -11,7 +11,7 @@ import { styles } from "./styles";
 
 interface Props extends TouchableOpacityProps {
   title: string;
-  image: ImageProps;
+  image: ImageSourcePropType;
 }
 
 export function Option({ title, image, ...rest }: Props) {

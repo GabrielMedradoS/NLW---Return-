@@ -6,9 +6,14 @@ import { TouchableOpacity } from "react-native";
 
 import { ChatTeardropDots } from "phosphor-react-native";
 
+import { Form } from "../Form";
+
 import { theme } from "../../theme";
-import { Options } from "../Options";
 import { styles } from "./styles";
+
+import { feedbackTypes } from "../../utils/feedbackTypes";
+
+export type FeedbackType = keyof typeof feedbackTypes;
 
 function Widget() {
   const bottomSheetRef = useRef<BottomSheet>(null);
@@ -33,7 +38,7 @@ function Widget() {
         backgroundStyle={styles.modal}
         handleIndicatorStyle={styles.indicator}
       >
-        <Options />
+        <Form feedbackType="BUG" />
       </BottomSheet>
     </>
   );

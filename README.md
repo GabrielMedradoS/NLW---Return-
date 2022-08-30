@@ -154,13 +154,19 @@ $ npm run dev
   },
   "dependencies": {
     "@expo-google-fonts/inter": "^0.2.2",
+    "@gorhom/bottom-sheet": "^4",
     "expo": "~46.0.9",
     "expo-app-loading": "~2.1.0",
     "expo-font": "~10.2.0",
     "expo-status-bar": "~1.4.0",
+    "phosphor-react-native": "^1.1.2",
     "react": "18.0.0",
     "react-dom": "18.0.0",
-    "react-native": "0.69.4",
+    "react-native": "0.69.5",
+    "react-native-gesture-handler": "~2.5.0",
+    "react-native-iphone-x-helper": "^1.3.1",
+    "react-native-reanimated": "~2.9.1",
+    "react-native-svg": "12.3.0",
     "react-native-web": "~0.18.7"
   },
   "devDependencies": {
@@ -168,7 +174,7 @@ $ npm run dev
     "@types/react": "~18.0.14",
     "@types/react-native": "~0.69.1",
     "typescript": "~4.3.5"
-  }
+  },
 ```
 
 </details>

@@ -34,7 +34,7 @@
 #### Mobile Screenshot:
 
 <div align='center'>
-<img src=".github/Mobile Widget.png" alt="widget" width="180px">
+<img src=".github/Mobile Widget.png" alt="widget" width="180px"> &nbsp;&nbsp;&nbsp;
 <img src=".github/Mobile Widget 2.png" alt="widget" width="180px">
 </div>
 

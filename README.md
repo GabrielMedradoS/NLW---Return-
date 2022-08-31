@@ -27,14 +27,15 @@
 #### Desktop Screenshot:
 
 <div align='center'>
-<img src=".github/widget.png" alt="widget" width="40%">
-<img src=".github/ideia.png" alt="widget" width="45%">
+<img src=".github/Mobile Widget.png" alt="widget" width="40%">
+<img src=".github/Mobile Widget 2.png" alt="widget" width="45%">
 </div>
 
 #### Mobile Screenshot:
 
 <div align='center'>
-🚧 <b> Under Construction </b> 🚧
+<img src=".github/widget.png" alt="widget" width="40%">
+<img src=".github/ideia.png" alt="widget" width="45%">
 </div>
 
 ## Projeto 💻

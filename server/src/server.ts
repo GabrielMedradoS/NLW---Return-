@@ -4,17 +4,16 @@ import { routes } from "./routes";
 
 const app = express();
 
-app.use(cors());
-
 // allow to access origin methods
-app.all("/", function (req, res, next) {
+app.use((req, res, next) => {
   res.header("Access-Control-Allow-Origin", "*");
-  res.header("Access-Control-Allow-Credentials", "include");
+  res.header("Access-Control-Allow-Credentials", "true");
   res.header("Access-Control-Allow-Methods", "POST");
   res.header(
     "Access-Control-Allow-Headers",
     "Origin, Content-Type, X-Requested-With, Accept, X-Custom-Header"
   );
+  app.use(cors());
   next();
 });
 

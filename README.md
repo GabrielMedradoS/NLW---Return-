@@ -252,6 +252,11 @@ _`Aula 5: `_
 - [Axios](https://axios-http.com/ptbr/docs/intro)
 - [Vite Env.](https://vitejs.dev/guide/env-and-mode.html)
 
+_`Deploy:`_
+
+- [![Netlify Status](https://api.netlify.com/api/v1/badges/38ba65b1-2779-4975-960f-862f700fae87/deploy-status)](https://app.netlify.com/sites/nlw-return/deploys)
+- [heroku](https://dashboard.heroku.com/apps)
+
 ## Licença ⚖️
 
 This project is under the MIT license. See the archive [LICENSE](https://github.com/GabrielMedradoS/NLW---Return-/blob/master/License) for more details.

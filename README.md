@@ -250,6 +250,7 @@ _`Aula 4 :`_
 _`Aula 5: `_
 
 - [Axios](https://axios-http.com/ptbr/docs/intro)
+- [Vite Env.](https://vitejs.dev/guide/env-and-mode.html)
 
 ## Licença ⚖️
 

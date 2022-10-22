@@ -55,6 +55,8 @@
 ```json
   "dependencies": {
     "@headlessui/react": "^1.6.6",
+    "axios": "^1.1.3",
+    "html2canvas": "^1.4.1",
     "phosphor-react": "^1.4.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
@@ -244,6 +246,10 @@ _`Aula 4 :`_
 - [Expo | gesture-handler](https://docs.expo.dev/versions/latest/sdk/gesture-handler/)
 - [RN | View-shot](https://docs.expo.dev/versions/latest/sdk/captureRef/)
 - [axios](https://axios-http.com/ptbr/docs/instance)
+
+_`Aula 5: `_
+
+- [Axios](https://axios-http.com/ptbr/docs/intro)
 
 ## Licença ⚖️
 

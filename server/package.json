@@ -2,7 +2,7 @@
   "scripts": {
     "dev": "ts-node-dev src/server.ts",
     "build": "npx tsc",
-    "start": "node dist/server.js",
+    "start": "node dist/src/server.js",
     "test": "jest"
   },
   "devDependencies": {

@@ -254,8 +254,21 @@ _`Aula 5: `_
 
 _`Deploy:`_
 
-- [![Netlify Status](https://api.netlify.com/api/v1/badges/38ba65b1-2779-4975-960f-862f700fae87/deploy-status)](https://app.netlify.com/sites/nlw-return/deploys)
+- [netlify](https://www.netlify.com/)
 - [heroku](https://dashboard.heroku.com/apps)
+
+<details>
+    <summary>Heroku CLI</summary>
+
+```bash
+#
+$ heroku git:remote -a my-project
+
+#
+$ git subtree push --prefix server heroku master
+```
+
+</details>
 
 ## Licença ⚖️
 

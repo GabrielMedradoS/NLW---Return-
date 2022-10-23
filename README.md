@@ -256,8 +256,6 @@ _`Deploy:`_
 
 - [netlify](https://www.netlify.com/)
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/38ba65b1-2779-4975-960f-862f700fae87/deploy-status)](https://nlw-return.netlify.app/)
-
 - [heroku](https://dashboard.heroku.com/apps)
 
 <details>
@@ -265,7 +263,7 @@ _`Deploy:`_
 
 ```bash
 #
-$ heroku git:remote -a my-project
+$ heroku git:remote -a rocket-nlw-return
 
 #
 $ git subtree push --prefix server heroku master
@@ -282,7 +280,7 @@ $ git subtree push --prefix server heroku master
 # Mudar o DATABASE_URL no arquivo .env
 
 #
-$ npx prisma migrate resolve --applied "20201231000000_add_users_table"
+$ npx prisma migrate resolve --applied "20221022192132_create_feedbacks"
 
 #
 $ npx prisma db push

@@ -27,7 +27,7 @@
 #### Desktop Screenshot:
 
 <div align='center'>
-<img src=".github/widget.png" alt="widget" width="40%">
+<img src=".github/github image.png" alt="widget" width="40%">
 <img src=".github/ideia.png" alt="widget" width="45%">
 </div>
 
